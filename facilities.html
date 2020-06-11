@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     
     <!--CSS link placed here-->
-    <link rel="stylesheet" type="text/css" href="facility.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
 
 </head>
@@ -16,7 +16,7 @@
 <body>
     <!-- Company logo to be placed  here -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light title">
-        <a class="navbar-brand" href="#">Hotel Name</a>
+        <a class="navbar-brand" href="#">Odavion Hotel </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,7 +46,7 @@
 <!-- Carousel starts here -->
 
 
-<section class="container-fluid">   
+<section class="container-fluid title_pic">   
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -55,22 +55,16 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://res.cloudinary.com/partypack/image/upload/v1591744360/architecture-hall-hallway-interior-design-53464_ebmkcb.jpg" class="d-block w-100" alt="hotel faacilities" width="200" height="500">
-        <div class="carousel-caption d-none d-md-block">
-          <h1>FACILITIES</h1>
-        </div>
+        <img src="https://res.cloudinary.com/partypack/image/upload/v1591744360/architecture-hall-hallway-interior-design-53464_ebmkcb.jpg" class="d-block w-100" alt="hotel facilities" width="200" height="500">
+        <h1>FACILITIES</h1> 
+    </div>
+      <div class="carousel-item">
+        <img src="https://res.cloudinary.com/partypack/image/upload/v1591743866/silversea-luxury-cruises-silver-origin-medaillon-suite_jehxcq.jpg" class="d-block w-100" alt="hotel facilities" width="200" height="500">
+        <h1>FACILITIES</h1>
       </div>
       <div class="carousel-item">
-        <img src="https://res.cloudinary.com/partypack/image/upload/v1591743866/silversea-luxury-cruises-silver-origin-medaillon-suite_jehxcq.jpg" class="d-block w-100" alt="hotel faacilities" width="200" height="500">
-        <div class="carousel-caption d-none d-md-block">
-            <h3>FACILITIES</h3> 
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="https://res.cloudinary.com/partypack/image/upload/v1591743888/body-of-water-near-buildings-1134176_givcma.jpg" class="d-block w-100" alt="hotel faacilities" width="200" height="500">
-        <div class="carousel-caption d-none d-md-block">
-            <h3>FACILITIES</h3>  
-        </div>
+        <img src="https://res.cloudinary.com/partypack/image/upload/v1591743888/body-of-water-near-buildings-1134176_givcma.jpg" class="d-block w-100" alt="hotel facilities" width="200" height="500">
+        <h1>FACILITIES</h1>
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -82,49 +76,68 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+  
+
+  <div class="row row-cols-4 border border-dark rounded-pill bookings">
+    <button class="btn">Select a room   <i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+    <button class="btn">6/6/2020  <i class="fa fa-envelope" aria-hidden="true"></i></button>
+    <button  class="btn">6/6/2020  <i class="fa fa-envelope" aria-hidden="true"></i></button>
+    <button  class="btn btn-warning">Visit Place   <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+  </div>
 </section>
 
 
-<section class="container">
-                <div class="row row-cols-4 border border-dark rounded-pill bookings">
-                  <div class="col">Select a room</div>
-                  <div class="col">6/6/2020</div>
-                  <div class="col">6/6/2020</div>
-                  <div class="col">Visit Place</div>
-                </div>
-              </section>
-          
-       
-              <div>
-                <h4><i class="fas fa-info-circle"></i>FACILITIES</h4>
-            </div>
-            <figure class="figure d-flex justify-content-around ">    
-                <img src="https://res.cloudinary.com/partypack/image/upload/v1591744335/white-wooden-rectangular-table-159213_snyugb.jpg" class="figure-img img-fluid"  alt="pic of a conference room" width="250" height="250"/>
-                
-                <img src="https://res.cloudinary.com/partypack/image/upload/v1591744013/architecture-ceiling-chairs-chandeliers-262047_rr5vwa.jpg" class="figure-img img-fluid"  alt="pic of restaurant" width="250" height="250"/>
-                
-                <img src="https://res.cloudinary.com/partypack/image/upload/v1591744668/architecture-beach-blue-chairs-261101_1_hazikf.jpg" class="figure-img img-fluid"  alt="pic of a swimming pool" width="250" height="250"/>
-                
-            </figure>
+<div class="awesomefont mt-sm-4">
+  <h4><i class="fas fa-info-circle"></i>FACILITIES</h4>
+</div>
+
+<section class="images">   
+  <div class="fig"> 
+    <figure class="figure d-flex justify-content-around mt-sm-4">    
+      <img src="https://res.cloudinary.com/partypack/image/upload/v1591744335/white-wooden-rectangular-table-159213_snyugb.jpg" class="figure-img img-fluid"  alt="pic of a conference room" width="250" height="250"/>
+      
+      <img src="https://res.cloudinary.com/partypack/image/upload/v1591744013/architecture-ceiling-chairs-chandeliers-262047_rr5vwa.jpg" class="figure-img img-fluid"  alt="pic of restaurant" width="250" height="250"/>
     
-    
-    <!-- footer starts here -->
+      <img src="https://res.cloudinary.com/partypack/image/upload/v1591744668/architecture-beach-blue-chairs-261101_1_hazikf.jpg" class="figure-img img-fluid"  alt="pic of a swimming pool" width="250" height="250"/>
+    </figure>
+  </div>
+</section>
+<div>
+  <ul class="caption">
+    <li>CONFERENCE ROOM</li>
+    <li>RESTAURANT</li>
+    <li>SWIMMING POOL</li>
+  </ul>
+</div>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+</div>
+
+<!-- footer starts here -->
     <footer>
-        <ul class="d-flex justify-content-around">
-            <li>ABOUT US </li>
-            <li>SERVICES</li>
-            <li>BOOKINGS</li>
-            <li>CONTACT US</li>
-        
-        <form class="form-inline">
-            <div class="form-group mb-2">
-              <label for="staticEmail2" class="sr-only ">Email</label>
-              <input type="email" class="form-contcol email" id="inputmail" placeholder="Email">
-            </div>
-            <button type="submit" class="btn btn-primary mb-2 subscribe">Subscribe</button>
-          </form>
-        </ul>
+        <div class="d-sm-flex justify-content-around pt-sm-4">   
+            <div class='p-2 ml-sm-4'>ABOUT US </div>
+            <div class='p-2'>SERVICES</div>
+            <div class='p-2'>BOOKINGS</div>
+            <div class='p-2'>CONTACT US</div>
+    
+            <form class="form-inline">
+              <div class="form-group mb-2">
+                <label for="staticEmail2" class="sr-only ">Email</label>
+                <input type="email" class="form-contcol email" id="inputmail" placeholder="Email">
+              </div>
+              <button type="submit" class="btn btn-primary mb-2 subscribe">Subscribe</button>
+            </form>
+
+                
+
         <hr>
+      </div>
     </footer>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

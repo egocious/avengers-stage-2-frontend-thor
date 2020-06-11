@@ -1,42 +1,95 @@
+      
+nav {
+  background-color: white;
+    }
 
-.home  {
-    padding-left: 18em;
+.nav-link:hover{
+  color: dodgerblue;
   }
-  .home  li{
-    padding-left: 5em;
-      }
-  .h1  {
-    word-spacing: 1em;
-      }
-  .bookings  {
-    padding: 1em 1em 1em 1em;
-      }
-  .fa-info-circle {
-    color:lightblue;
-    font-size: 1.5em;
-  } 
-  h4  {
-    text-align: center;
-  }
-  footer li{
-    list-style: none;
-      }
-  .img-fluid  {
-    border-radius: 2em;
-      }
-  footer{
-  background-color: dodgerblue;
-  height: 10em;
+
+
+.container{
+  position: relative;
+
+}
+.bookings  {
+  padding: 1em;
+  background: white;
+  position: absolute;
+  top: 25em;
+  left: 23em;
+  width: 40em;
+  margin-right: 1em;
+}
+
+.bookings i{
+  border-right: 1em;
+  border-right-color: pink;
   }
   
-  .subscribe{
-    background-color: orange;
-      }
-  .email  {
-    padding: 0.25em;
+
+.title_pic{
+  z-index: 0;
+  position: relative;
+}
+h1{
+  letter-spacing: .2em;
+  z-index: 11;
+  position: absolute;
+  top: 5em;
+  left: 13em;
+  color: white;
+  }
+
+
+.home  {
+  padding-left: 18em;
+}
+.home  li{
+  padding-left: 5em;
+    }
+
+
+.fa-info-circle {
+  color: lightblue;
+  font-size: 1.5em;
+  } 
+.img-fluid{
+  margin-top: 5em;
+  border-radius: 2em;
+}
+.caption{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  margin: -1em 0em 3em -4em;
+}
+.caption li{
+  list-style: none;
+  font-weight: 600;
+}
+h4  {
+  text-align: center;
+}
+
+footer li{
+  list-style: none;
+    }
+
+footer{
+background-color: dodgerblue;
+height: 10em;
+align-items: center;
+padding-top: 2em;
+}
+
+.subscribe{
+  background-color: orange;
+    }
+.email  {
+  padding: 0.25em 1.5em 0.25em 0.25em;
+  margin-left: 28em;
+  
+    }
     
-      }
-      hr{
-    color: white;
-    height: 1em;
-      }
